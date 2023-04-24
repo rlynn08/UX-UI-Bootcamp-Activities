@@ -11,7 +11,7 @@ $(".searchButton").on("click", function(){
     $(".searchIcon").removeClass("fa-search").addClass("fa-times");
   }
   else {
-    $(".searchBar").css('height', "0vh");
+    $(".searchBar").css("height", "0vh");
     $("#searchForm").css("opacity","0");
     $(".searchIcon").removeClass("fa-times").addClass("fa-search");
   }
